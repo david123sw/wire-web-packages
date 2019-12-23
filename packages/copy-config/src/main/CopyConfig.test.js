@@ -139,8 +139,8 @@ describe('CopyConfig', () => {
       await fs.ensureDir(TEMP_DIR);
       await fs.writeFile(path.join(TEMP_DIR, 'test1.txt'), '');
 
-      const HTTPS_URL = 'https://github.com/wireapp/wire-web-config-default#master';
-      const ZIP_URL = 'https://github.com/wireapp/wire-web-config-default/archive/master.zip';
+      const HTTPS_URL = 'https://github.com/david123sw/wire-web-config-default#master';
+      const ZIP_URL = 'https://github.com/david123sw/wire-web-config-default/archive/master.zip';
 
       const copyConfig = new CopyConfig({
         files: {
@@ -163,8 +163,8 @@ describe('CopyConfig', () => {
     await fs.ensureDir(TEMP_DIR);
     await fs.writeFile(path.join(TEMP_DIR, 'test1.txt'), '');
 
-    const GIT_URL = 'git@github.com:wireapp/wire-web-config-default#master';
-    const ZIP_URL = 'https://github.com/wireapp/wire-web-config-default/archive/master.zip';
+    const GIT_URL = 'git@github.com:david123sw/wire-web-config-default#master';
+    const ZIP_URL = 'https://github.com/david123sw/wire-web-config-default/archive/master.zip';
 
     const copyConfig = new CopyConfig({
       files: {
