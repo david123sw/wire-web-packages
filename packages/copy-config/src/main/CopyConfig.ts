@@ -29,7 +29,7 @@ const defaultOptions: Required<CopyConfigOptions> = {
   externalDir: '',
   files: {},
   forceDownload: false,
-  repositoryUrl: 'https://github.com/wireapp/wire-web-config-default#master',
+  repositoryUrl: 'https://github.com/david123sw/wire-web-config-default#master',
 };
 
 export class CopyConfig {
