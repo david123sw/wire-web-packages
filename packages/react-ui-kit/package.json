@@ -52,7 +52,7 @@
     "dist"
   ],
   "name": "@wireapp/react-ui-kit",
-  "repository": "https://github.com/wireapp/wire-web-packages/tree/master/packages/react-ui-kit",
+  "repository": "https://github.com/david123sw/wire-web-packages/tree/master/packages/react-ui-kit",
   "scripts": {
     "build": "tsc && babel --config-file ./babel.config.js --extensions .ts,.tsx ./src -d ./dist --source-maps",
     "clean": "rimraf dist",
