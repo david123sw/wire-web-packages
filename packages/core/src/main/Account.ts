@@ -202,11 +202,11 @@ export class Account extends EventEmitter {
     };
   }
 
-  public async login(loginData: LoginData, initClient: boolean = true, clientInfo?: ClientInfo): Promise<Context> {
+  public async login(loginData: LoginData, initClient: boolean = true, clientInfo?: ClientInfo, accessTokenStore?: any): Promise<Context> {
     this.resetContext();
     LoginSanitizer.removeNonPrintableCharacters(loginData);
 
-    const context = await this.apiClient.login(loginData);
+    const context = await this.apiClient.login(loginData, accessTokenStore);
     const storeEngine = await this.initEngine(context);
     await this.initServices(storeEngine);
 
