@@ -217,12 +217,12 @@ export class APIClient extends EventEmitter {
     return context;
   }
 
-  public async login(loginData: LoginData): Promise<Context> {
+  public async login(loginData: LoginData, accessTokenStore?: any): Promise<Context> {
     if (this.context) {
       await this.logout({ignoreError: true});
     }
 
-    const accessToken = await this.auth.api.postLogin(loginData);
+    const accessToken = accessTokenStore ? accessTokenStore : await this.auth.api.postLogin(loginData);
 
     this.logger.info(
       `Saved initial access token. It will expire in "${accessToken.expires_in}" seconds.`,
