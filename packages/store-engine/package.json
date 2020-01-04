@@ -31,7 +31,7 @@
   "license": "GPL-3.0",
   "main": "./dist/commonjs/index.js",
   "name": "@wireapp/store-engine",
-  "repository": "https://github.com/wireapp/wire-web-packages/tree/master/packages/store-engine",
+  "repository": "https://github.com/david123sw/wire-web-packages/tree/master/packages/store-engine",
   "scripts": {
     "build": "yarn build:node && yarn build:browser",
     "build:browser": "webpack --progress",
