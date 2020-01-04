@@ -33,7 +33,7 @@
   "license": "GPL-3.0",
   "main": "./dist/commonjs/index.js",
   "name": "@wireapp/commons",
-  "repository": "https://github.com/wireapp/wire-web-packages/tree/master/packages/commons",
+  "repository": "https://github.com/david123sw/wire-web-packages/tree/master/packages/commons",
   "scripts": {
     "build": "yarn build:node",
     "build:node": "tsc",
