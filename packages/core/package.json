@@ -49,7 +49,7 @@
   "license": "GPL-3.0",
   "main": "dist/Account.js",
   "name": "@wireapp/core",
-  "repository": "https://github.com/wireapp/wire-web-packages/tree/master/packages/core",
+  "repository": "https://github.com/david123sw/wire-web-packages/tree/master/packages/core",
   "scripts": {
     "build": "yarn build:node && yarn build:browser",
     "build:browser": "webpack --progress",
