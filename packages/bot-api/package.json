@@ -16,7 +16,7 @@
   "license": "GPL-3.0",
   "main": "dist/index.js",
   "name": "@wireapp/bot-api",
-  "repository": "https://github.com/wireapp/wire-web-packages/tree/master/packages/bot-api",
+  "repository": "https://github.com/david123sw/wire-web-packages/tree/master/packages/bot-api",
   "scripts": {
     "build": "yarn build:node && yarn build:browser",
     "build:browser": "exit 0",
