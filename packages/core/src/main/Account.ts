@@ -213,7 +213,7 @@ export class Account extends EventEmitter {
     if (initClient) {
       await this.initClient(loginData, clientInfo);
     }
-
+    
     return context;
   }
 
